@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 09 Dec 2023 08:22:30 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 08 Dec 2023 08:22:30 GMT
+Set-Cookie: MTUserInfo=firstName&Botego&username&Bot987&address2&Colorado&hash&55&address1&street%20Lkjhgfzxc&lastName&Gansales%0A; path=/
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

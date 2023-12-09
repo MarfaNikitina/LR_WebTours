@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\User\Documents\WebTours_Scripts\UC4_LoginAndViewUserBookings(new)
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\webtours_scripts\uc4_loginandviewuserbookings(new)\\logfile.log
+c:\users\user\documents\webtours_scripts\uc4_loginandviewuserbookings(new)\\combined_UC4_LoginAndViewUserBookings(new).c
+c:\users\user\documents\webtours_scripts\uc4_loginandviewuserbookings(new)\\pre_cci.c

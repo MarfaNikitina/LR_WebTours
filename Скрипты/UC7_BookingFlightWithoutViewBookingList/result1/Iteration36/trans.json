@@ -1,0 +1,47 @@
+[
+    {
+        "transactionName": "StartPage",
+        "rawStartTime": 1702110156643,
+        "rawEndTime": 1702110156927
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1702110156962,
+        "rawEndTime": 1702110157248
+    },
+    {
+        "transactionName": "Flights",
+        "rawStartTime": 1702110157281,
+        "rawEndTime": 1702110157564
+    },
+    {
+        "transactionName": "FindFlight",
+        "rawStartTime": 1702110157602,
+        "rawEndTime": 1702110157617
+    },
+    {
+        "transactionName": "Find Flight",
+        "rawStartTime": 1702110157634,
+        "rawEndTime": 1702110157868
+    },
+    {
+        "transactionName": "ChooseFlight",
+        "rawStartTime": 1702110157914,
+        "rawEndTime": 1702110158100
+    },
+    {
+        "transactionName": "ChooseFlight",
+        "rawStartTime": 1702110158139,
+        "rawEndTime": 1702110158331
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1702110158364,
+        "rawEndTime": 1702110158604
+    },
+    {
+        "transactionName": "UC7_BookingFlight",
+        "rawStartTime": 1702110156622,
+        "rawEndTime": 1702110158620
+    }
+]

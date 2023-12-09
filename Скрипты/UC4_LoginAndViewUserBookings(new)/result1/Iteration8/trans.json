@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "StartPage",
+        "rawStartTime": 1702115862303,
+        "rawEndTime": 1702115862510
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1702115862554,
+        "rawEndTime": 1702115862818
+    },
+    {
+        "transactionName": "AllBookings",
+        "rawStartTime": 1702115862870,
+        "rawEndTime": 1702115863116
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1702115863154,
+        "rawEndTime": 1702115863322
+    },
+    {
+        "transactionName": "LoginAndViewBookings",
+        "rawStartTime": 1702115862288,
+        "rawEndTime": 1702115863339
+    }
+]

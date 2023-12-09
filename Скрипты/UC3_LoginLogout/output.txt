@@ -1,0 +1,453 @@
+Virtual User Script started at: 07.12.2023 0:07:45
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\User\Documents\WebTours_Scripts\UC3_LoginLogout\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action UC3_LoginLogout.
+UC3_LoginLogout.c(3): Notify: Transaction "Login/Logout" started.
+UC3_LoginLogout.c(5): Notify: Transaction "StartPage" started.
+UC3_LoginLogout.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC3_LoginLogout.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(18): web_url("welcome.pl") was successful, 4212 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,2465 Wasted Time: 0,0741).
+UC3_LoginLogout.c(32): Notify: Transaction "Login" started.
+UC3_LoginLogout.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") was successful, 5780 body bytes, 2044 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1628 Wasted Time: 0,0053).
+UC3_LoginLogout.c(57): Notify: Transaction "Logout" started.
+UC3_LoginLogout.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC3_LoginLogout.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC3_LoginLogout.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(61): web_url("SignOff Button") was successful, 2175 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1400 Wasted Time: 0,0044).
+UC3_LoginLogout.c(73): Notify: Transaction "Login/Logout" ended with a "Pass" status (Duration: 0,6451 Wasted Time: 0,0838).
+Ending action UC3_LoginLogout.
+Ending iteration 1.
+Starting iteration 2.
+Starting action UC3_LoginLogout.
+UC3_LoginLogout.c(3): Notify: Transaction "Login/Logout" started.
+UC3_LoginLogout.c(5): Notify: Transaction "StartPage" started.
+UC3_LoginLogout.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC3_LoginLogout.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(18): web_url("welcome.pl") was successful, 4215 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,1809 Wasted Time: 0,0071).
+UC3_LoginLogout.c(32): Notify: Transaction "Login" started.
+UC3_LoginLogout.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") was successful, 5783 body bytes, 2067 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1732 Wasted Time: 0,0073).
+UC3_LoginLogout.c(57): Notify: Transaction "Logout" started.
+UC3_LoginLogout.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC3_LoginLogout.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC3_LoginLogout.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(61): web_url("SignOff Button") was successful, 2175 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1425 Wasted Time: 0,0053).
+UC3_LoginLogout.c(73): Notify: Transaction "Login/Logout" ended with a "Pass" status (Duration: 0,5954 Wasted Time: 0,0197).
+Ending action UC3_LoginLogout.
+Ending iteration 2.
+Starting iteration 3.
+Starting action UC3_LoginLogout.
+UC3_LoginLogout.c(3): Notify: Transaction "Login/Logout" started.
+UC3_LoginLogout.c(5): Notify: Transaction "StartPage" started.
+UC3_LoginLogout.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC3_LoginLogout.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(18): web_url("welcome.pl") was successful, 4216 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,1950 Wasted Time: 0,0084).
+UC3_LoginLogout.c(32): Notify: Transaction "Login" started.
+UC3_LoginLogout.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") was successful, 5781 body bytes, 2055 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1813 Wasted Time: 0,0103).
+UC3_LoginLogout.c(57): Notify: Transaction "Logout" started.
+UC3_LoginLogout.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC3_LoginLogout.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC3_LoginLogout.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(61): web_url("SignOff Button") was successful, 2176 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1453 Wasted Time: 0,0074).
+UC3_LoginLogout.c(73): Notify: Transaction "Login/Logout" ended with a "Pass" status (Duration: 0,6162 Wasted Time: 0,0261).
+Ending action UC3_LoginLogout.
+Ending iteration 3.
+Starting iteration 4.
+Starting action UC3_LoginLogout.
+UC3_LoginLogout.c(3): Notify: Transaction "Login/Logout" started.
+UC3_LoginLogout.c(5): Notify: Transaction "StartPage" started.
+UC3_LoginLogout.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC3_LoginLogout.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(18): web_url("welcome.pl") was successful, 4216 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,2108 Wasted Time: 0,0118).
+UC3_LoginLogout.c(32): Notify: Transaction "Login" started.
+UC3_LoginLogout.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") was successful, 5780 body bytes, 2053 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1725 Wasted Time: 0,0135).
+UC3_LoginLogout.c(57): Notify: Transaction "Logout" started.
+UC3_LoginLogout.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC3_LoginLogout.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC3_LoginLogout.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(61): web_url("SignOff Button") was successful, 2168 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1490 Wasted Time: 0,0099).
+UC3_LoginLogout.c(73): Notify: Transaction "Login/Logout" ended with a "Pass" status (Duration: 0,6554 Wasted Time: 0,0352).
+Ending action UC3_LoginLogout.
+Ending iteration 4.
+Starting iteration 5.
+Starting action UC3_LoginLogout.
+UC3_LoginLogout.c(3): Notify: Transaction "Login/Logout" started.
+UC3_LoginLogout.c(5): Notify: Transaction "StartPage" started.
+UC3_LoginLogout.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC3_LoginLogout.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(18): web_url("welcome.pl") was successful, 4208 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,1984 Wasted Time: 0,0127).
+UC3_LoginLogout.c(32): Notify: Transaction "Login" started.
+UC3_LoginLogout.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") was successful, 5778 body bytes, 2054 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,2179 Wasted Time: 0,0133).
+UC3_LoginLogout.c(57): Notify: Transaction "Logout" started.
+UC3_LoginLogout.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC3_LoginLogout.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC3_LoginLogout.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(61): web_url("SignOff Button") was successful, 2168 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1412 Wasted Time: 0,0115).
+UC3_LoginLogout.c(73): Notify: Transaction "Login/Logout" ended with a "Pass" status (Duration: 0,6606 Wasted Time: 0,0376).
+Ending action UC3_LoginLogout.
+Ending iteration 5.
+Starting iteration 6.
+Starting action UC3_LoginLogout.
+UC3_LoginLogout.c(3): Notify: Transaction "Login/Logout" started.
+UC3_LoginLogout.c(5): Notify: Transaction "StartPage" started.
+UC3_LoginLogout.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC3_LoginLogout.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(18): web_url("welcome.pl") was successful, 4216 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,1967 Wasted Time: 0,0148).
+UC3_LoginLogout.c(32): Notify: Transaction "Login" started.
+UC3_LoginLogout.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") was successful, 5780 body bytes, 2048 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,2051 Wasted Time: 0,0157).
+UC3_LoginLogout.c(57): Notify: Transaction "Logout" started.
+UC3_LoginLogout.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC3_LoginLogout.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC3_LoginLogout.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(61): web_url("SignOff Button") was successful, 2176 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1666 Wasted Time: 0,0148).
+UC3_LoginLogout.c(73): Notify: Transaction "Login/Logout" ended with a "Pass" status (Duration: 0,6755 Wasted Time: 0,0453).
+Ending action UC3_LoginLogout.
+Ending iteration 6.
+Starting iteration 7.
+Starting action UC3_LoginLogout.
+UC3_LoginLogout.c(3): Notify: Transaction "Login/Logout" started.
+UC3_LoginLogout.c(5): Notify: Transaction "StartPage" started.
+UC3_LoginLogout.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC3_LoginLogout.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(18): web_url("welcome.pl") was successful, 4216 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,1937 Wasted Time: 0,0216).
+UC3_LoginLogout.c(32): Notify: Transaction "Login" started.
+UC3_LoginLogout.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") was successful, 5778 body bytes, 2057 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1773 Wasted Time: 0,0175).
+UC3_LoginLogout.c(57): Notify: Transaction "Logout" started.
+UC3_LoginLogout.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC3_LoginLogout.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC3_LoginLogout.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(61): web_url("SignOff Button") was successful, 2175 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1493 Wasted Time: 0,0167).
+UC3_LoginLogout.c(73): Notify: Transaction "Login/Logout" ended with a "Pass" status (Duration: 0,6200 Wasted Time: 0,0558).
+Ending action UC3_LoginLogout.
+Ending iteration 7.
+Starting iteration 8.
+Starting action UC3_LoginLogout.
+UC3_LoginLogout.c(3): Notify: Transaction "Login/Logout" started.
+UC3_LoginLogout.c(5): Notify: Transaction "StartPage" started.
+UC3_LoginLogout.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC3_LoginLogout.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(18): web_url("welcome.pl") was successful, 4215 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,2340 Wasted Time: 0,0203).
+UC3_LoginLogout.c(32): Notify: Transaction "Login" started.
+UC3_LoginLogout.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") was successful, 5780 body bytes, 2056 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,2348 Wasted Time: 0,0203).
+UC3_LoginLogout.c(57): Notify: Transaction "Logout" started.
+UC3_LoginLogout.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC3_LoginLogout.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC3_LoginLogout.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(61): web_url("SignOff Button") was successful, 2172 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1620 Wasted Time: 0,0179).
+UC3_LoginLogout.c(73): Notify: Transaction "Login/Logout" ended with a "Pass" status (Duration: 0,7263 Wasted Time: 0,0586).
+Ending action UC3_LoginLogout.
+Ending iteration 8.
+Starting iteration 9.
+Starting action UC3_LoginLogout.
+UC3_LoginLogout.c(3): Notify: Transaction "Login/Logout" started.
+UC3_LoginLogout.c(5): Notify: Transaction "StartPage" started.
+UC3_LoginLogout.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC3_LoginLogout.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(18): web_url("welcome.pl") was successful, 4212 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,2065 Wasted Time: 0,0233).
+UC3_LoginLogout.c(32): Notify: Transaction "Login" started.
+UC3_LoginLogout.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") was successful, 5782 body bytes, 2058 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1745 Wasted Time: 0,0219).
+UC3_LoginLogout.c(57): Notify: Transaction "Logout" started.
+UC3_LoginLogout.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC3_LoginLogout.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC3_LoginLogout.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(61): web_url("SignOff Button") was successful, 2172 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1619 Wasted Time: 0,0220).
+UC3_LoginLogout.c(73): Notify: Transaction "Login/Logout" ended with a "Pass" status (Duration: 0,6473 Wasted Time: 0,0672).
+Ending action UC3_LoginLogout.
+Ending iteration 9.
+Starting iteration 10.
+Starting action UC3_LoginLogout.
+UC3_LoginLogout.c(3): Notify: Transaction "Login/Logout" started.
+UC3_LoginLogout.c(5): Notify: Transaction "StartPage" started.
+UC3_LoginLogout.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC3_LoginLogout.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(18): web_url("welcome.pl") was successful, 4212 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,2009 Wasted Time: 0,0222).
+UC3_LoginLogout.c(32): Notify: Transaction "Login" started.
+UC3_LoginLogout.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC3_LoginLogout.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(36): web_submit_data("login.pl") was successful, 5781 body bytes, 2065 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,2253 Wasted Time: 0,0257).
+UC3_LoginLogout.c(57): Notify: Transaction "Logout" started.
+UC3_LoginLogout.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC3_LoginLogout.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC3_LoginLogout.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC3_LoginLogout.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC3_LoginLogout.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC3_LoginLogout.c(61): web_url("SignOff Button") was successful, 2174 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC3_LoginLogout.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1690 Wasted Time: 0,0222).
+UC3_LoginLogout.c(73): Notify: Transaction "Login/Logout" ended with a "Pass" status (Duration: 0,7051 Wasted Time: 0,0700).
+Ending action UC3_LoginLogout.
+Ending iteration 10.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

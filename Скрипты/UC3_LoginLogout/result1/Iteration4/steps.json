@@ -1,0 +1,20 @@
+[
+    {
+        "stepId": "STEP10",
+        "stepName": "Url: welcome.pl",
+        "infFile": "t1.inf",
+        "time": 1701896867868
+    },
+    {
+        "stepId": "STEP11",
+        "stepName": "Submit Data: login.pl",
+        "infFile": "t2.inf",
+        "time": 1701896868080
+    },
+    {
+        "stepId": "STEP12",
+        "stepName": "Url: SignOff Button",
+        "infFile": "t3.inf",
+        "time": 1701896868276
+    }
+]
