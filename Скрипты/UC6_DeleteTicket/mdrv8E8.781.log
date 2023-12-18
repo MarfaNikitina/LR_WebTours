@@ -1,0 +1,11 @@
+Start auto log messages stack - Iteration 20.	[MsgId: MMSG-10545]
+UC6_DeleteFlight.c(75): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC6_DeleteFlight.c(77): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(77): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC6_DeleteFlight.c(83): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(83): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+UC6_DeleteFlight.c(83): Detected non-resource "http://127.0.0.1:1080/cgi-bin/itinerary.pl" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+UC6_DeleteFlight.c(83): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

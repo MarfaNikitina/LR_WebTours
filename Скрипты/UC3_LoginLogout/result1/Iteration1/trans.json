@@ -1,22 +1,27 @@
 [
     {
         "transactionName": "StartPage",
-        "rawStartTime": 1701896865710,
-        "rawEndTime": 1701896865957
+        "rawStartTime": 1702733541338,
+        "rawEndTime": 1702733541573
     },
     {
         "transactionName": "Login",
-        "rawStartTime": 1701896865989,
-        "rawEndTime": 1701896866151
+        "rawStartTime": 1702733546616,
+        "rawEndTime": 1702733546820
     },
     {
-        "transactionName": "Logout",
-        "rawStartTime": 1701896866183,
-        "rawEndTime": 1701896866323
+        "transactionName": "Flights",
+        "rawStartTime": 1702733551867,
+        "rawEndTime": 1702733552068
+    },
+    {
+        "transactionName": "AllBookings",
+        "rawStartTime": 1702733557112,
+        "rawEndTime": 1702733557312
     },
     {
         "transactionName": "Login/Logout",
-        "rawStartTime": 1701896865694,
-        "rawEndTime": 1701896866339
+        "rawStartTime": 1702733541323,
+        "rawEndTime": 1702733557328
     }
 ]

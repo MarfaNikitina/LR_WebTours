@@ -1,4 +1,4 @@
-# 1 "c:\\users\\user\\documents\\webtours_scripts\\uc5_userregistration\\\\combined_UC5_UserRegistration.c"
+# 1 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc5_userregistration\\\\combined_UC5_UserRegistration.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\user\\documents\\webtours_scripts\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
+# 1 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\user\\documents\\webtours_scripts\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
+# 2 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
 
 # 1 "globals.h" 1
 
@@ -2580,18 +2580,20 @@ void
 
 
 
+
  
  
 
 
-# 3 "c:\\users\\user\\documents\\webtours_scripts\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
+
+# 3 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\user\\documents\\webtours_scripts\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
+# 4 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
 
 # 1 "UC5_UserRegistration.c" 1
 UC5_UserRegistration()
@@ -2620,7 +2622,7 @@ UC5_UserRegistration()
 	lr_param_sprintf("lastName", "%s%s", lr_eval_string("{lastName}"), lr_eval_string("{RandomLetter}"));
 	
 	
-	lr_start_transaction("UserRegistration");
+	lr_start_transaction("UC5_UserRegistration");
 	
 	lr_start_transaction("StartPage");
 	
@@ -2647,7 +2649,7 @@ UC5_UserRegistration()
 
 	lr_end_transaction("StartPage",2);
 
-	lr_think_time(11);
+	lr_think_time(5);
 
 	lr_start_transaction("AddUser");
 	
@@ -2664,7 +2666,7 @@ UC5_UserRegistration()
 		"LAST");
 	lr_end_transaction("AddUser",2);
 	
-	lr_think_time(34);
+	lr_think_time(5);
 	
 	lr_start_transaction("UserData");
 	
@@ -2692,32 +2694,25 @@ UC5_UserRegistration()
 
 	lr_end_transaction("UserData", 2);
 
-	lr_think_time(20);
+	lr_think_time(5);
 
-	lr_start_transaction("Login");
+	lr_start_transaction("SingUp");
 	
-	web_reg_find("Text/IC=User password was correct","LAST");
+	web_reg_find("Text/IC=User has returned to the home page","LAST");
 
-	web_submit_data("login.pl_3", 
-		"Action=http://127.0.0.1:1080/cgi-bin/login.pl", 
-		"Method=POST", 
-		"TargetFrame=info", 
+	web_url("button_next.gif", 
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?in=home", 
-		"Snapshot=t9.inf", 
+		"Referer=http://127.0.0.1:1080/cgi-bin/login.pl", 
+		"Snapshot=t14.inf", 
 		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=userSession", "Value={userSession}", "ENDITEM", 
-		"Name=username", "Value={username}", "ENDITEM", 
-		"Name=password", "Value={password}", "ENDITEM", 
-		"Name=login.x", "Value=16", "ENDITEM", 
-		"Name=login.y", "Value=6", "ENDITEM", 
-		"Name=JSFormSubmit", "Value=off", "ENDITEM", 
 		"LAST");
 
-	lr_end_transaction("Login",2);
+	lr_end_transaction("SingUp",2);
 
-	lr_think_time(10);
+	lr_think_time(5);
 
 	lr_start_transaction("Logout");
 	
@@ -2735,17 +2730,16 @@ UC5_UserRegistration()
 
 	lr_end_transaction("Logout",2);
 	
-	lr_end_transaction("UserRegistration", 2);
-
+	lr_end_transaction("UC5_UserRegistration", 2);
 
 	return 0;
 }
-# 5 "c:\\users\\user\\documents\\webtours_scripts\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
+# 5 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\user\\documents\\webtours_scripts\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
+# 6 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc5_userregistration\\\\combined_UC5_UserRegistration.c" 2
 

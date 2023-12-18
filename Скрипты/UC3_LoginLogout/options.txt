@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\User\Documents\WebTours_Scripts\UC3_LoginLogout
+-IC:\Users\User\Documents\WebTours_Scripts\Скрипты_НовыйПрофиль\UC3_LoginLogout
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\user\documents\webtours_scripts\uc3_loginlogout\\logfile.log
-c:\users\user\documents\webtours_scripts\uc3_loginlogout\\combined_LoginLogout.c
-c:\users\user\documents\webtours_scripts\uc3_loginlogout\\pre_cci.c
+-ec:\users\user\documents\webtours_scripts\скрипты_новыйпрофиль\uc3_loginlogout\\logfile.log
+c:\users\user\documents\webtours_scripts\скрипты_новыйпрофиль\uc3_loginlogout\\combined_UC3_LoginLogout.c
+c:\users\user\documents\webtours_scripts\скрипты_новыйпрофиль\uc3_loginlogout\\pre_cci.c

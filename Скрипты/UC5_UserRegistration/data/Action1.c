@@ -1,8 +1,6 @@
 Action1()
 {
 
-	lr_start_transaction("StartPage");
-
 	web_set_sockets_option("SSL_VERSION", "2&3");
 
 	web_add_cookie("csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; DOMAIN=127.0.0.1");
@@ -13,15 +11,9 @@ Action1()
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=http://127.0.0.1:1080/WebTours/", 
-		"Snapshot=t6.inf", 
+		"Snapshot=t11.inf", 
 		"Mode=HTML", 
 		LAST);
-
-	lr_end_transaction("StartPage",LR_AUTO);
-
-	lr_think_time(11);
-
-	lr_start_transaction("AddUser");
 
 	web_url("login.pl", 
 		"URL=http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
@@ -29,11 +21,11 @@ Action1()
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=http://127.0.0.1:1080/WebTours/home.html", 
-		"Snapshot=t7.inf", 
+		"Snapshot=t12.inf", 
 		"Mode=HTML", 
 		LAST);
 
-	lr_think_time(34);
+	lr_think_time(42);
 
 	web_submit_data("login.pl_2", 
 		"Action=http://127.0.0.1:1080/cgi-bin/login.pl", 
@@ -41,48 +33,33 @@ Action1()
 		"TargetFrame=info", 
 		"RecContentType=text/html", 
 		"Referer=http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
-		"Snapshot=t8.inf", 
+		"Snapshot=t13.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=username", "Value=Moko", ENDITEM, 
-		"Name=password", "Value=moko", ENDITEM, 
-		"Name=passwordConfirm", "Value=moko", ENDITEM, 
-		"Name=firstName", "Value=Moko", ENDITEM, 
-		"Name=lastName", "Value=moko", ENDITEM, 
-		"Name=address1", "Value=mokoloko", ENDITEM, 
-		"Name=address2", "Value=Monako", ENDITEM, 
-		"Name=register.x", "Value=70", ENDITEM, 
-		"Name=register.y", "Value=14", ENDITEM, 
+		"Name=username", "Value=Banana", ENDITEM, 
+		"Name=password", "Value=banana", ENDITEM, 
+		"Name=passwordConfirm", "Value=banana", ENDITEM, 
+		"Name=firstName", "Value=Banana", ENDITEM, 
+		"Name=lastName", "Value=Banana", ENDITEM, 
+		"Name=address1", "Value=Banana street", ENDITEM, 
+		"Name=address2", "Value=Banana town", ENDITEM, 
+		"Name=register.x", "Value=58", ENDITEM, 
+		"Name=register.y", "Value=12", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("AddUser",LR_AUTO);
+	lr_think_time(6);
 
-	lr_think_time(20);
-
-	lr_start_transaction("Login");
-
-	web_submit_data("login.pl_3", 
-		"Action=http://127.0.0.1:1080/cgi-bin/login.pl", 
-		"Method=POST", 
-		"TargetFrame=info", 
+	web_url("button_next.gif", 
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?in=home", 
-		"Snapshot=t9.inf", 
+		"Referer=http://127.0.0.1:1080/cgi-bin/login.pl", 
+		"Snapshot=t14.inf", 
 		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=userSession", "Value=137838.330093155HAQAAfQpVAtVzzzHtcftApDftzcf", ENDITEM, 
-		"Name=username", "Value=Moko", ENDITEM, 
-		"Name=password", "Value=moko", ENDITEM, 
-		"Name=login.x", "Value=16", ENDITEM, 
-		"Name=login.y", "Value=6", ENDITEM, 
-		"Name=JSFormSubmit", "Value=off", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("Login",LR_AUTO);
-
-	lr_think_time(10);
-
-	lr_start_transaction("Logout");
+	lr_think_time(6);
 
 	web_url("SignOff Button", 
 		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1", 
@@ -90,11 +67,9 @@ Action1()
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
-		"Snapshot=t10.inf", 
+		"Snapshot=t15.inf", 
 		"Mode=HTML", 
 		LAST);
-
-	lr_end_transaction("Logout",LR_AUTO);
 
 	return 0;
 }

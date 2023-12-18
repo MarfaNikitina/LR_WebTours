@@ -1,32 +1,32 @@
 [
     {
         "transactionName": "StartPage",
-        "rawStartTime": 1701617552238,
-        "rawEndTime": 1701617552446
+        "rawStartTime": 1702539392569,
+        "rawEndTime": 1702539400902
     },
     {
         "transactionName": "AddUser",
-        "rawStartTime": 1701617552458,
-        "rawEndTime": 1701617552524
+        "rawStartTime": 1702539405940,
+        "rawEndTime": 1702539406064
     },
     {
         "transactionName": "UserData",
-        "rawStartTime": 1701617552556,
-        "rawEndTime": 1701617552666
+        "rawStartTime": 1702539411105,
+        "rawEndTime": 1702539411213
     },
     {
-        "transactionName": "Login",
-        "rawStartTime": 1701617552697,
-        "rawEndTime": 1701617552911
+        "transactionName": "SingUp",
+        "rawStartTime": 1702539416246,
+        "rawEndTime": 1702539416447
     },
     {
         "transactionName": "Logout",
-        "rawStartTime": 1701617552929,
-        "rawEndTime": 1701617553045
+        "rawStartTime": 1702539421489,
+        "rawEndTime": 1702539421628
     },
     {
-        "transactionName": "UserRegistration",
-        "rawStartTime": 1701617552231,
-        "rawEndTime": 1701617553049
+        "transactionName": "UC5_UserRegistration",
+        "rawStartTime": 1702539392556,
+        "rawEndTime": 1702539421645
     }
 ]

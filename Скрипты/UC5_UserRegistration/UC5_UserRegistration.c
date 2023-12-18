@@ -24,7 +24,7 @@ UC5_UserRegistration()
 	lr_param_sprintf("lastName", "%s%s", lr_eval_string("{lastName}"), lr_eval_string("{RandomLetter}"));
 	
 	
-	lr_start_transaction("UserRegistration");
+	lr_start_transaction("UC5_UserRegistration");
 	
 	lr_start_transaction("StartPage");
 	
@@ -51,7 +51,7 @@ UC5_UserRegistration()
 
 	lr_end_transaction("StartPage",LR_AUTO);
 
-	lr_think_time(4);
+	lr_think_time(5);
 
 	lr_start_transaction("AddUser");
 	
@@ -68,7 +68,7 @@ UC5_UserRegistration()
 		LAST);
 	lr_end_transaction("AddUser",LR_AUTO);
 	
-	lr_think_time(4);
+	lr_think_time(5);
 	
 	lr_start_transaction("UserData");
 	
@@ -96,32 +96,25 @@ UC5_UserRegistration()
 
 	lr_end_transaction("UserData", LR_AUTO);
 
-	lr_think_time(6);
+	lr_think_time(5);
 
-	lr_start_transaction("Login");
+	lr_start_transaction("SingUp");
 	
-	web_reg_find("Text/IC=User password was correct",LAST);
+	web_reg_find("Text/IC=User has returned to the home page",LAST);
 
-	web_submit_data("login.pl_3", 
-		"Action=http://127.0.0.1:1080/cgi-bin/login.pl", 
-		"Method=POST", 
-		"TargetFrame=info", 
+	web_url("button_next.gif", 
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?in=home", 
-		"Snapshot=t9.inf", 
+		"Referer=http://127.0.0.1:1080/cgi-bin/login.pl", 
+		"Snapshot=t14.inf", 
 		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=userSession", "Value={userSession}", ENDITEM, 
-		"Name=username", "Value={username}", ENDITEM, 
-		"Name=password", "Value={password}", ENDITEM, 
-		"Name=login.x", "Value=16", ENDITEM, 
-		"Name=login.y", "Value=6", ENDITEM, 
-		"Name=JSFormSubmit", "Value=off", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("Login",LR_AUTO);
+	lr_end_transaction("SingUp",LR_AUTO);
 
-	lr_think_time(4);
+	lr_think_time(5);
 
 	lr_start_transaction("Logout");
 	
@@ -139,7 +132,7 @@ UC5_UserRegistration()
 
 	lr_end_transaction("Logout",LR_AUTO);
 	
-	lr_end_transaction("UserRegistration", LR_AUTO);
+	lr_end_transaction("UC5_UserRegistration", LR_AUTO);
 
 	return 0;
 }

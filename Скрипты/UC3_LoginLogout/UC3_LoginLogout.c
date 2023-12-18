@@ -27,7 +27,7 @@ UC3_LoginLogout()
 
 	lr_end_transaction("StartPage",LR_AUTO);
 
-	lr_think_time(6);
+	lr_think_time(5);
 
 	lr_start_transaction("Login");
 	
@@ -53,22 +53,56 @@ UC3_LoginLogout()
 	lr_end_transaction("Login",LR_AUTO);
 
 	lr_think_time(5);
-
-	lr_start_transaction("Logout");
 	
-	web_reg_find("Text/IC=Web Tours",LAST);
+	lr_start_transaction("Flights");
+	
+	web_reg_find("Text/IC= User has returned to the search page",LAST);
 
-	web_url("SignOff Button", 
-		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1", 
+	web_url("Search Flights Button", 
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
-		"Snapshot=t8.inf", 
+		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("Logout",LR_AUTO);
+	lr_end_transaction("Flights",LR_AUTO);
+	
+	lr_think_time(5);
+	
+	lr_start_transaction("AllBookings");
+	
+	web_reg_find("Text/IC=User wants the intineraries",LAST);
+
+	web_url("Itinerary Button", 
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t7.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	lr_end_transaction("AllBookings",LR_AUTO);
+
+//	lr_start_transaction("Logout");
+//	
+//	web_reg_find("Text/IC=Web Tours",LAST);
+//
+//	web_url("SignOff Button", 
+//		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1", 
+//		"TargetFrame=body", 
+//		"Resource=0", 
+//		"RecContentType=text/html", 
+//		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
+//		"Snapshot=t8.inf", 
+//		"Mode=HTML", 
+//		LAST);
+//
+//	lr_end_transaction("Logout",LR_AUTO);
 	
 	lr_end_transaction("Login/Logout", LR_AUTO);
 

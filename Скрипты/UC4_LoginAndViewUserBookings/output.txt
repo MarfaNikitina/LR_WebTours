@@ -1,0 +1,75 @@
+Virtual User Script started at: 14.12.2023 10:37:58
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\User\Documents\WebTours_Scripts\Скрипты_НовыйПрофиль\UC4_LoginAndViewUserBookings\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action UC4_LoginAndViewBookings.
+UC4_LoginAndViewBookings.c(3): Notify: Transaction "LoginAndViewBookings" started.
+UC4_LoginAndViewBookings.c(5): Notify: Transaction "StartPage" started.
+UC4_LoginAndViewBookings.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC4_LoginAndViewBookings.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC4_LoginAndViewBookings.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC4_LoginAndViewBookings.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC4_LoginAndViewBookings.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC4_LoginAndViewBookings.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC4_LoginAndViewBookings.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC4_LoginAndViewBookings.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC4_LoginAndViewBookings.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC4_LoginAndViewBookings.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC4_LoginAndViewBookings.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC4_LoginAndViewBookings.c(18): web_url("welcome.pl") was successful, 4215 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC4_LoginAndViewBookings.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,2328 Wasted Time: 0,0654).
+UC4_LoginAndViewBookings.c(30): lr_think_time: 5,00 seconds.
+UC4_LoginAndViewBookings.c(32): Notify: Transaction "Login" started.
+UC4_LoginAndViewBookings.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC4_LoginAndViewBookings.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC4_LoginAndViewBookings.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC4_LoginAndViewBookings.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC4_LoginAndViewBookings.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC4_LoginAndViewBookings.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC4_LoginAndViewBookings.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC4_LoginAndViewBookings.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC4_LoginAndViewBookings.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC4_LoginAndViewBookings.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC4_LoginAndViewBookings.c(36): web_submit_data("login.pl") was successful, 5780 body bytes, 2047 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC4_LoginAndViewBookings.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1560 Wasted Time: 0,0053).
+UC4_LoginAndViewBookings.c(55): lr_think_time: 5,00 seconds.
+UC4_LoginAndViewBookings.c(57): Notify: Transaction "AllBookings" started.
+UC4_LoginAndViewBookings.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC4_LoginAndViewBookings.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC4_LoginAndViewBookings.c(61): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+UC4_LoginAndViewBookings.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+UC4_LoginAndViewBookings.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/itinerary.pl" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+UC4_LoginAndViewBookings.c(61): Resource "http://127.0.0.1:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC4_LoginAndViewBookings.c(61): Found resource "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+UC4_LoginAndViewBookings.c(61): Found resource "http://127.0.0.1:1080/WebTours/images/home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+UC4_LoginAndViewBookings.c(61): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC4_LoginAndViewBookings.c(61): Found resource "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+UC4_LoginAndViewBookings.c(61): Found resource "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+UC4_LoginAndViewBookings.c(61): Registered web_reg_find successful for "Text=User wants the intineraries" (count=1)  	[MsgId: MMSG-26364]
+UC4_LoginAndViewBookings.c(61): web_url("Itinerary Button") was successful, 27150 body bytes, 1917 header bytes, 75 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC4_LoginAndViewBookings.c(71): Notify: Transaction "AllBookings" ended with a "Pass" status (Duration: 0,1837 Wasted Time: 0,0049).
+UC4_LoginAndViewBookings.c(73): lr_think_time: 5,00 seconds.
+UC4_LoginAndViewBookings.c(75): Notify: Transaction "Logout" started.
+UC4_LoginAndViewBookings.c(77): web_reg_find started  	[MsgId: MMSG-26355]
+UC4_LoginAndViewBookings.c(77): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC4_LoginAndViewBookings.c(79): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC4_LoginAndViewBookings.c(79): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC4_LoginAndViewBookings.c(79): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC4_LoginAndViewBookings.c(79): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC4_LoginAndViewBookings.c(79): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC4_LoginAndViewBookings.c(79): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC4_LoginAndViewBookings.c(79): web_url("SignOff Button") was successful, 2175 body bytes, 630 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC4_LoginAndViewBookings.c(89): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1400 Wasted Time: 0,0035).
+UC4_LoginAndViewBookings.c(91): Notify: Transaction "LoginAndViewBookings" ended with a "Pass" status (Duration: 15,8556 Think Time: 15,0137 Wasted Time: 0,0792).
+Ending action UC4_LoginAndViewBookings.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

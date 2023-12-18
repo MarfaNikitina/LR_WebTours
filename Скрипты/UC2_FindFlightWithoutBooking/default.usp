@@ -57,7 +57,7 @@ MercIniTreeSons="UC2_FindFlight"
 Name="Run"
 RunLogicActionOrder="UC2_FindFlight"
 RunLogicActionType="VuserRun"
-RunLogicNumOfIterations="10"
+RunLogicNumOfIterations="1"
 RunLogicObjectKind="Group"
 RunLogicRunMode="Sequential"
 [RunLogicRunRoot:UC2_FindFlight]

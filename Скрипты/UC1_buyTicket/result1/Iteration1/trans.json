@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "StartPage",
+        "rawStartTime": 1702733361485,
+        "rawEndTime": 1702733361918
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1702733366962,
+        "rawEndTime": 1702733367144
+    },
+    {
+        "transactionName": "Flights",
+        "rawStartTime": 1702733372178,
+        "rawEndTime": 1702733372395
+    },
+    {
+        "transactionName": "FindFlight",
+        "rawStartTime": 1702733377434,
+        "rawEndTime": 1702733377573
+    },
+    {
+        "transactionName": "ChooseFlight",
+        "rawStartTime": 1702733382613,
+        "rawEndTime": 1702733382722
+    },
+    {
+        "transactionName": "PayForFlight",
+        "rawStartTime": 1702733387761,
+        "rawEndTime": 1702733387868
+    },
+    {
+        "transactionName": "UC1_buyTicket",
+        "rawStartTime": 1702733361465,
+        "rawEndTime": 1702733387884
+    }
+]

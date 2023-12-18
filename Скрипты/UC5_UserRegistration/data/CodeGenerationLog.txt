@@ -58,7 +58,7 @@ $$$$$$ End Log Message $$$$$$
 Code generation version: 12.55.911.0
 
 ****** Analyze segments filter initialization ******
-****** Request Header For Transaction With Id 269 ******
+****** Request Header For Transaction With Id 434 ******
 GET /WebTours/ HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -71,18 +71,18 @@ If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
 If-None-Match: "300000008ba8e-16e-4ddb1559ac980"
 
 
-$$$$$$ Request Header For Transaction With Id 269 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 434 Ended $$$$$$
 
-****** Response Header For Transaction With Id 269 ******
+****** Response Header For Transaction With Id 434 ******
 HTTP/1.1 304 Not Modified
-Date: Sun, 03 Dec 2023 14:36:25 GMT
+Date: Thu, 14 Dec 2023 06:36:53 GMT
 Server: Apache/2.2.21 (Win32)
 Connection: Keep-Alive
 Keep-Alive: timeout=5, max=100
 ETag: "300000008ba8e-16e-4ddb1559ac980"
 
 
-$$$$$$ Response Header For Transaction With Id 269 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 434 Ended $$$$$$
 
 ****** Start Log Message ******
 
@@ -92,7 +92,7 @@ End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Request Header For Transaction With Id 273 ******
+****** Request Header For Transaction With Id 458 ******
 GET /WebTours/header.html HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -106,18 +106,18 @@ If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
 If-None-Match: "300000008ba74-2c6-4ddb1559ac980"
 
 
-$$$$$$ Request Header For Transaction With Id 273 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 458 Ended $$$$$$
 
-****** Response Header For Transaction With Id 273 ******
+****** Response Header For Transaction With Id 458 ******
 HTTP/1.1 304 Not Modified
-Date: Sun, 03 Dec 2023 14:36:25 GMT
+Date: Thu, 14 Dec 2023 06:37:02 GMT
 Server: Apache/2.2.21 (Win32)
 Connection: Keep-Alive
-Keep-Alive: timeout=5, max=99
+Keep-Alive: timeout=5, max=100
 ETag: "300000008ba74-2c6-4ddb1559ac980"
 
 
-$$$$$$ Response Header For Transaction With Id 273 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 458 Ended $$$$$$
 
 ****** Start Log Message ******
 
@@ -127,7 +127,7 @@ End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Request Header For Transaction With Id 287 ******
+****** Request Header For Transaction With Id 462 ******
 GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -139,23 +139,23 @@ Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWa
 Connection: keep-alive
 
 
-$$$$$$ Request Header For Transaction With Id 287 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 462 Ended $$$$$$
 
-****** Response Header For Transaction With Id 287 ******
+****** Response Header For Transaction With Id 462 ******
 HTTP/1.1 200 OK
-Date: Sun, 03 Dec 2023 14:36:25 GMT
+Date: Thu, 14 Dec 2023 06:37:02 GMT
 Server: Apache/2.2.21 (Win32)
-Set-Cookie: MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/
-Set-Cookie: MTUserInfo=; path=/; expires=Sat, 02-Dec-2023 14:36:25 GMT
+Set-Cookie: MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 13-Dec-2023 06:37:02 GMT
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 287 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 462 Ended $$$$$$
 
-****** Response Body For Transaction With Id 287 ******
+****** Response Body For Transaction With Id 462 ******
 <!-- 
  A Session ID has been created and loaded into a cookie called MSO.
  Also, the server options have been loaded into the cookie called
@@ -177,7 +177,7 @@ $$$$$$ Response Header For Transaction With Id 287 Ended $$$$$$
 
 </body>
 </html>
-$$$$$$ Response Body For Transaction With Id 287 Ended $$$$$$
+$$$$$$ Response Body For Transaction With Id 462 Ended $$$$$$
 
 ****** Start Log Message ******
 
@@ -191,27 +191,27 @@ $$$$$$ End Log Message $$$$$$
 Set SSL version to '2&3'
 $$$$$$ End Log Message $$$$$$
 
-****** Add Event For Transaction With Id 287 ****** (Location Flag : tFlagInsertEnd, Location ID : 287)
+****** Add Event For Transaction With Id 462 ****** (Location Flag : tFlagInsertEnd, Location ID : 462)
 	web_url("welcome.pl",
 		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true",
 		"TargetFrame=",
 		"Resource=0",
 		"RecContentType=text/html",
 		"Referer=http://127.0.0.1:1080/WebTours/",
-		"Snapshot=t6.inf",
+		"Snapshot=t11.inf",
 		"Mode=HTML",
 		LAST);
 
 
-$$$$$$ Add Event For Transaction With Id 287 Ended $$$$$$
+$$$$$$ Add Event For Transaction With Id 462 Ended $$$$$$
 
-****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 287)
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 462)
 	web_add_cookie("csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; DOMAIN=127.0.0.1");
 
 
 $$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
 
-****** Request Header For Transaction With Id 292 ******
+****** Request Header For Transaction With Id 465 ******
 GET /WebTours/home.html HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -219,24 +219,24 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
 Connection: keep-alive
 If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
 If-None-Match: "300000008ba75-551-4ddb1559ac980"
 
 
-$$$$$$ Request Header For Transaction With Id 292 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 465 Ended $$$$$$
 
-****** Response Header For Transaction With Id 292 ******
+****** Response Header For Transaction With Id 465 ******
 HTTP/1.1 304 Not Modified
-Date: Sun, 03 Dec 2023 14:36:25 GMT
+Date: Thu, 14 Dec 2023 06:37:02 GMT
 Server: Apache/2.2.21 (Win32)
 Connection: Keep-Alive
-Keep-Alive: timeout=5, max=98
+Keep-Alive: timeout=5, max=100
 ETag: "300000008ba75-551-4ddb1559ac980"
 
 
-$$$$$$ Response Header For Transaction With Id 292 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 465 Ended $$$$$$
 
 ****** Start Log Message ******
 
@@ -246,7 +246,7 @@ End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Request Header For Transaction With Id 294 ******
+****** Request Header For Transaction With Id 467 ******
 GET /cgi-bin/nav.pl?in=home HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -254,26 +254,26 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
 Connection: keep-alive
 
 
-$$$$$$ Request Header For Transaction With Id 294 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 467 Ended $$$$$$
 
-****** Response Header For Transaction With Id 294 ******
+****** Response Header For Transaction With Id 467 ******
 HTTP/1.1 200 OK
-Date: Sun, 03 Dec 2023 14:36:25 GMT
+Date: Thu, 14 Dec 2023 06:37:02 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: Sat, 02 Dec 2023 14:36:25 GMT
+Expires: Wed, 13 Dec 2023 06:37:02 GMT
 Keep-Alive: timeout=5, max=99
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 294 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 467 Ended $$$$$$
 
-****** Response Body For Transaction With Id 294 ******
+****** Response Body For Transaction With Id 467 ******
 <!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -290,7 +290,7 @@ H3 {font-family: tahoma; font-size : 10pt; color: black}
 small {font-family: tahoma; font-size : 8pt}
 </style>
 <form method="post" action="/cgi-bin/login.pl" target="body">
-<input type="hidden" name="userSession" value="137838.330093155HAQAAfQpVAtVzzzHtcftApDftzcf"/>
+<input type="hidden" name="userSession" value="137912.986796274HAQDiQQpcfiDDDDDtcfzDpDQfff"/>
 <table border="0"><tr><td>&nbsp;</td>
 <td>&nbsp;</td></tr>
 <tr><td>&nbsp;</td>
@@ -315,7 +315,7 @@ src="/WebTours/images/mer_login.gif"/></td></tr>
 </body>
 </html>
 
-$$$$$$ Response Body For Transaction With Id 294 Ended $$$$$$
+$$$$$$ Response Body For Transaction With Id 467 Ended $$$$$$
 
 ****** Start Log Message ******
 
@@ -327,22 +327,22 @@ End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Request Header For Transaction With Id 303 ******
+****** Request Header For Transaction With Id 474 ******
 GET /favicon.ico HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
 Connection: keep-alive
 
 
-$$$$$$ Request Header For Transaction With Id 303 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 474 Ended $$$$$$
 
-****** Response Header For Transaction With Id 303 ******
+****** Response Header For Transaction With Id 474 ******
 HTTP/1.1 404 Not Found
-Date: Sun, 03 Dec 2023 14:36:26 GMT
+Date: Thu, 14 Dec 2023 06:37:02 GMT
 Server: Apache/2.2.21 (Win32)
 Content-Length: 209
 Keep-Alive: timeout=5, max=98
@@ -350,9 +350,9 @@ Connection: Keep-Alive
 Content-Type: text/html; charset=iso-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 303 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 474 Ended $$$$$$
 
-****** Response Body For Transaction With Id 303 ******
+****** Response Body For Transaction With Id 474 ******
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
 <title>404 Not Found</title>
@@ -361,7 +361,7 @@ $$$$$$ Response Header For Transaction With Id 303 Ended $$$$$$
 <p>The requested URL /favicon.ico was not found on this server.</p>
 </body></html>
 
-$$$$$$ Response Body For Transaction With Id 303 Ended $$$$$$
+$$$$$$ Response Body For Transaction With Id 474 Ended $$$$$$
 
 ****** Start Log Message ******
 
@@ -374,22 +374,22 @@ End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Request Header For Transaction With Id 305 ******
+****** Request Header For Transaction With Id 476 ******
 GET /favicon.ico HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
 Connection: keep-alive
 
 
-$$$$$$ Request Header For Transaction With Id 305 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 476 Ended $$$$$$
 
-****** Response Header For Transaction With Id 305 ******
+****** Response Header For Transaction With Id 476 ******
 HTTP/1.1 404 Not Found
-Date: Sun, 03 Dec 2023 14:36:26 GMT
+Date: Thu, 14 Dec 2023 06:37:02 GMT
 Server: Apache/2.2.21 (Win32)
 Content-Length: 209
 Keep-Alive: timeout=5, max=97
@@ -397,9 +397,9 @@ Connection: Keep-Alive
 Content-Type: text/html; charset=iso-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 305 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 476 Ended $$$$$$
 
-****** Response Body For Transaction With Id 305 ******
+****** Response Body For Transaction With Id 476 ******
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
 <title>404 Not Found</title>
@@ -408,7 +408,7 @@ $$$$$$ Response Header For Transaction With Id 305 Ended $$$$$$
 <p>The requested URL /favicon.ico was not found on this server.</p>
 </body></html>
 
-$$$$$$ Response Body For Transaction With Id 305 Ended $$$$$$
+$$$$$$ Response Body For Transaction With Id 476 Ended $$$$$$
 
 ****** Start Log Message ******
 
@@ -421,7 +421,7 @@ End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Request Header For Transaction With Id 318 ******
+****** Request Header For Transaction With Id 479 ******
 GET /cgi-bin/login.pl?username=&password=&getInfo=true HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -429,26 +429,26 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Referer: http://127.0.0.1:1080/WebTours/home.html
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
 Connection: keep-alive
 
 
-$$$$$$ Request Header For Transaction With Id 318 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 479 Ended $$$$$$
 
-****** Response Header For Transaction With Id 318 ******
+****** Response Header For Transaction With Id 479 ******
 HTTP/1.1 200 OK
-Date: Sun, 03 Dec 2023 14:36:38 GMT
+Date: Thu, 14 Dec 2023 06:37:06 GMT
 Server: Apache/2.2.21 (Win32)
 Expires: 5s
-Keep-Alive: timeout=5, max=100
+Keep-Alive: timeout=5, max=96
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 318 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 479 Ended $$$$$$
 
-****** Response Body For Transaction With Id 318 ******
+****** Response Body For Transaction With Id 479 ******
 <!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -464,7 +464,7 @@ $$$$$$ Response Header For Transaction With Id 318 Ended $$$$$$
 </body>
 </html>
 
-$$$$$$ Response Body For Transaction With Id 318 Ended $$$$$$
+$$$$$$ Response Body For Transaction With Id 479 Ended $$$$$$
 
 ****** Start Log Message ******
 
@@ -477,21 +477,21 @@ End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Add Event For Transaction With Id 318 ****** (Location Flag : tFlagInsertEnd, Location ID : 318)
+****** Add Event For Transaction With Id 479 ****** (Location Flag : tFlagInsertEnd, Location ID : 479)
 	web_url("login.pl",
 		"URL=http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true",
 		"TargetFrame=body",
 		"Resource=0",
 		"RecContentType=text/html",
 		"Referer=http://127.0.0.1:1080/WebTours/home.html",
-		"Snapshot=t7.inf",
+		"Snapshot=t12.inf",
 		"Mode=HTML",
 		LAST);
 
 
-$$$$$$ Add Event For Transaction With Id 318 Ended $$$$$$
+$$$$$$ Add Event For Transaction With Id 479 Ended $$$$$$
 
-****** Request Header For Transaction With Id 333 ******
+****** Request Header For Transaction With Id 502 ******
 POST /cgi-bin/login.pl HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -499,33 +499,33 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Referer: http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
 Connection: keep-alive
 Content-Type: application/x-www-form-urlencoded
-Content-Length: 139
+Content-Length: 159
 
 
-$$$$$$ Request Header For Transaction With Id 333 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 502 Ended $$$$$$
 
-****** Request Body For Transaction With Id 333 ******
-username=Moko&password=moko&passwordConfirm=moko&firstName=Moko&lastName=moko&address1=mokoloko&address2=Monako&register.x=70&register.y=14
-$$$$$$ Request Body For Transaction With Id 333 Ended $$$$$$
+****** Request Body For Transaction With Id 502 ******
+username=Banana&password=banana&passwordConfirm=banana&firstName=Banana&lastName=Banana&address1=Banana+street&address2=Banana+town&register.x=58&register.y=12
+$$$$$$ Request Body For Transaction With Id 502 Ended $$$$$$
 
-****** Response Header For Transaction With Id 333 ******
+****** Response Header For Transaction With Id 502 ******
 HTTP/1.1 200 OK
-Date: Sun, 03 Dec 2023 14:37:12 GMT
+Date: Thu, 14 Dec 2023 06:37:48 GMT
 Server: Apache/2.2.21 (Win32)
 Expires: 5s
-Set-Cookie: MTUserInfo=firstName&Moko&address2&Monako&username&Moko&hash&15&lastName&moko&address1&mokoloko&creditCard&&expDate&; path=/
+Set-Cookie: MTUserInfo=firstName&Banana&address2&Banana%20town&username&Banana&hash&33&lastName&Banana&address1&Banana%20street&creditCard&&expDate&; path=/
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 333 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 502 Ended $$$$$$
 
-****** Response Body For Transaction With Id 333 ******
+****** Response Body For Transaction With Id 502 ******
 <!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -539,12 +539,12 @@ $$$$$$ Response Header For Transaction With Id 333 Ended $$$$$$
 <br/><br/><br/>
 
 
-<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><blockquote>Thank you, <b>Moko</b>, for registering and welcome to the Web Tours family.
+<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><blockquote>Thank you, <b>Banana</b>, for registering and welcome to the Web Tours family.
 We hope we can meet all your current and future travel needs.  If you have any questions, feel free 
 to ask our support staff.   Click below when you're ready to plan your dream trip...<p /><center><a href=welcome.pl?page=menus target='body'><img src=/WebTours/images/button_next.gif border=0></a></center></blockquote>
 </body>
 </html>
-$$$$$$ Response Body For Transaction With Id 333 Ended $$$$$$
+$$$$$$ Response Body For Transaction With Id 502 Ended $$$$$$
 
 ****** Start Log Message ******
 
@@ -557,81 +557,76 @@ End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Add Event For Transaction With Id 333 ****** (Location Flag : tFlagInsertEnd, Location ID : 333)
+****** Add Event For Transaction With Id 502 ****** (Location Flag : tFlagInsertEnd, Location ID : 502)
 	web_submit_data("login.pl_2",
 		"Action=http://127.0.0.1:1080/cgi-bin/login.pl",
 		"Method=POST",
 		"TargetFrame=info",
 		"RecContentType=text/html",
 		"Referer=http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true",
-		"Snapshot=t8.inf",
+		"Snapshot=t13.inf",
 		"Mode=HTML",
 		ITEMDATA,
-		"Name=username", "Value=Moko", ENDITEM,
-		"Name=password", "Value=moko", ENDITEM,
-		"Name=passwordConfirm", "Value=moko", ENDITEM,
-		"Name=firstName", "Value=Moko", ENDITEM,
-		"Name=lastName", "Value=moko", ENDITEM,
-		"Name=address1", "Value=mokoloko", ENDITEM,
-		"Name=address2", "Value=Monako", ENDITEM,
-		"Name=register.x", "Value=70", ENDITEM,
-		"Name=register.y", "Value=14", ENDITEM,
+		"Name=username", "Value=Banana", ENDITEM,
+		"Name=password", "Value=banana", ENDITEM,
+		"Name=passwordConfirm", "Value=banana", ENDITEM,
+		"Name=firstName", "Value=Banana", ENDITEM,
+		"Name=lastName", "Value=Banana", ENDITEM,
+		"Name=address1", "Value=Banana street", ENDITEM,
+		"Name=address2", "Value=Banana town", ENDITEM,
+		"Name=register.x", "Value=58", ENDITEM,
+		"Name=register.y", "Value=12", ENDITEM,
 		LAST);
 
 
-$$$$$$ Add Event For Transaction With Id 333 Ended $$$$$$
+$$$$$$ Add Event For Transaction With Id 502 Ended $$$$$$
 
-****** Request Header For Transaction With Id 352 ******
-POST /cgi-bin/login.pl HTTP/1.1
+****** Request Header For Transaction With Id 509 ******
+GET /cgi-bin/welcome.pl?page=menus HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?in=home
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Moko&address2&Monako&username&Moko&hash&15&lastName&moko&address1&mokoloko&creditCard&&expDate&
+Referer: http://127.0.0.1:1080/cgi-bin/login.pl
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Banana&address2&Banana%20town&username&Banana&hash&33&lastName&Banana&address1&Banana%20street&creditCard&&expDate&
 Connection: keep-alive
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 122
 
 
-$$$$$$ Request Header For Transaction With Id 352 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 509 Ended $$$$$$
 
-****** Request Body For Transaction With Id 352 ******
-userSession=137838.330093155HAQAAfQpVAtVzzzHtcftApDftzcf&username=Moko&password=moko&login.x=16&login.y=6&JSFormSubmit=off
-$$$$$$ Request Body For Transaction With Id 352 Ended $$$$$$
-
-****** Response Header For Transaction With Id 352 ******
+****** Response Header For Transaction With Id 509 ******
 HTTP/1.1 200 OK
-Date: Sun, 03 Dec 2023 14:37:32 GMT
+Date: Thu, 14 Dec 2023 06:37:55 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: 5s
-Set-Cookie: MTUserInfo=firstName&Moko&address2&Monako&username&Moko&hash&15&lastName&moko%0A&address1&mokoloko&creditCard&&expDate&%0A; path=/
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 352 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 509 Ended $$$$$$
 
-****** Response Body For Transaction With Id 352 ******
-<!--
-User password was correct - added a cookie with the user's default
-information.  Set the user up to make reservations...
-
---->
+****** Response Body For Transaction With Id 509 ******
+<!-- 
+ User has returned to the home page.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ --->
 
 <html>
 <title>Web Tours</title>
-<frameset cols="160,*" border=1 frameborder=1>
-<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
-<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
-</frameset>
-
-</body>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?page=menu&in=home" name="navbar" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+      <!-- Intro Frame -->
+      <frame src="login.pl?intro=true" name="info" 
+            marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>
+   </frameset>
 </html>
-$$$$$$ Response Body For Transaction With Id 352 Ended $$$$$$
+
+$$$$$$ Response Body For Transaction With Id 509 Ended $$$$$$
 
 ****** Start Log Message ******
 
@@ -645,55 +640,48 @@ End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Add Event For Transaction With Id 352 ****** (Location Flag : tFlagInsertEnd, Location ID : 352)
-	web_submit_data("login.pl_3",
-		"Action=http://127.0.0.1:1080/cgi-bin/login.pl",
-		"Method=POST",
-		"TargetFrame=info",
+****** Add Event For Transaction With Id 509 ****** (Location Flag : tFlagInsertEnd, Location ID : 509)
+	web_url("button_next.gif",
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus",
+		"TargetFrame=body",
+		"Resource=0",
 		"RecContentType=text/html",
-		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?in=home",
-		"Snapshot=t9.inf",
+		"Referer=http://127.0.0.1:1080/cgi-bin/login.pl",
+		"Snapshot=t14.inf",
 		"Mode=HTML",
-		ITEMDATA,
-		"Name=userSession", "Value=137838.330093155HAQAAfQpVAtVzzzHtcftApDftzcf", ENDITEM,
-		"Name=username", "Value=Moko", ENDITEM,
-		"Name=password", "Value=moko", ENDITEM,
-		"Name=login.x", "Value=16", ENDITEM,
-		"Name=login.y", "Value=6", ENDITEM,
-		"Name=JSFormSubmit", "Value=off", ENDITEM,
 		LAST);
 
 
-$$$$$$ Add Event For Transaction With Id 352 Ended $$$$$$
+$$$$$$ Add Event For Transaction With Id 509 Ended $$$$$$
 
-****** Request Header For Transaction With Id 357 ******
+****** Request Header For Transaction With Id 514 ******
 GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://127.0.0.1:1080/cgi-bin/login.pl
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Moko&address2&Monako&username&Moko&hash&15&lastName&moko%0A&address1&mokoloko&creditCard&&expDate&%0A
+Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Banana&address2&Banana%20town&username&Banana&hash&33&lastName&Banana&address1&Banana%20street&creditCard&&expDate&
 Connection: keep-alive
 
 
-$$$$$$ Request Header For Transaction With Id 357 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 514 Ended $$$$$$
 
-****** Response Header For Transaction With Id 357 ******
+****** Response Header For Transaction With Id 514 ******
 HTTP/1.1 200 OK
-Date: Sun, 03 Dec 2023 14:37:33 GMT
+Date: Thu, 14 Dec 2023 06:37:55 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: Sat, 02 Dec 2023 14:37:33 GMT
+Expires: Wed, 13 Dec 2023 06:37:55 GMT
 Keep-Alive: timeout=5, max=99
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 357 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 514 Ended $$$$$$
 
-****** Response Body For Transaction With Id 357 ******
+****** Response Body For Transaction With Id 514 ******
 <!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -728,33 +716,37 @@ ALT="SignOff Button"/></A></center>
 </body>
 </html>
 
-$$$$$$ Response Body For Transaction With Id 357 Ended $$$$$$
+$$$$$$ Response Body For Transaction With Id 514 Ended $$$$$$
 
 ****** Start Log Message ******
 
 Start Frames Hierarchy Tree Dump
-/cgi-bin/login.pl
+The Node has no URL
+	/cgi-bin/login.pl?username=&password=&getInfo=true
+	Form: name= action=login.pl
+	/cgi-bin/welcome.pl?page=menus
+	/cgi-bin/login.pl
 End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Request Header For Transaction With Id 360 ******
+****** Request Header For Transaction With Id 517 ******
 GET /cgi-bin/login.pl?intro=true HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Referer: http://127.0.0.1:1080/cgi-bin/login.pl
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Moko&address2&Monako&username&Moko&hash&15&lastName&moko%0A&address1&mokoloko&creditCard&&expDate&%0A
+Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Banana&address2&Banana%20town&username&Banana&hash&33&lastName&Banana&address1&Banana%20street&creditCard&&expDate&
 Connection: keep-alive
 
 
-$$$$$$ Request Header For Transaction With Id 360 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 517 Ended $$$$$$
 
-****** Response Header For Transaction With Id 360 ******
+****** Response Header For Transaction With Id 517 ******
 HTTP/1.1 200 OK
-Date: Sun, 03 Dec 2023 14:37:33 GMT
+Date: Thu, 14 Dec 2023 06:37:55 GMT
 Server: Apache/2.2.21 (Win32)
 Expires: 5s
 Keep-Alive: timeout=5, max=100
@@ -763,9 +755,9 @@ Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 360 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 517 Ended $$$$$$
 
-****** Response Body For Transaction With Id 360 ******
+****** Response Body For Transaction With Id 517 ******
 <!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -775,24 +767,28 @@ $$$$$$ Response Header For Transaction With Id 360 Ended $$$$$$
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 </head>
 <body bgcolor="#E0E7F1">
-<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>Moko</b>, to the Web Tours reservation pages.<BR/>Using the menu to the left, you can search for new flights to book, 
+<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>Banana</b>, to the Web Tours reservation pages.<BR/>Using the menu to the left, you can search for new flights to book, 
 or review/edit the flights already booked.  Don't forget to sign off when
 you're done!
 </blockquote>
 </body>
 </html>
-$$$$$$ Response Body For Transaction With Id 360 Ended $$$$$$
+$$$$$$ Response Body For Transaction With Id 517 Ended $$$$$$
 
 ****** Start Log Message ******
 
 Start Frames Hierarchy Tree Dump
-/cgi-bin/login.pl
-	/cgi-bin/nav.pl?page=menu&in=home
+The Node has no URL
+	/cgi-bin/login.pl?username=&password=&getInfo=true
+	Form: name= action=login.pl
+	/cgi-bin/welcome.pl?page=menus
+		/cgi-bin/nav.pl?page=menu&in=home
+	/cgi-bin/login.pl
 End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Request Header For Transaction With Id 367 ******
+****** Request Header For Transaction With Id 524 ******
 GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -800,27 +796,27 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Moko&address2&Monako&username&Moko&hash&15&lastName&moko%0A&address1&mokoloko&creditCard&&expDate&%0A
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535822&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Banana&address2&Banana%20town&username&Banana&hash&33&lastName&Banana&address1&Banana%20street&creditCard&&expDate&
 Connection: keep-alive
 
 
-$$$$$$ Request Header For Transaction With Id 367 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 524 Ended $$$$$$
 
-****** Response Header For Transaction With Id 367 ******
+****** Response Header For Transaction With Id 524 ******
 HTTP/1.1 200 OK
-Date: Sun, 03 Dec 2023 14:37:44 GMT
+Date: Thu, 14 Dec 2023 06:38:01 GMT
 Server: Apache/2.2.21 (Win32)
-Set-Cookie: MSO=SID&1701614264&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/
-Set-Cookie: MTUserInfo=; path=/; expires=Sat, 02-Dec-2023 14:37:44 GMT
+Set-Cookie: MSO=SID&1702535881&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Wed, 13-Dec-2023 06:38:01 GMT
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 367 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 524 Ended $$$$$$
 
-****** Response Body For Transaction With Id 367 ******
+****** Response Body For Transaction With Id 524 ******
 <!-- 
  A Session ID has been created and loaded into a cookie called MSO.
  Also, the server options have been loaded into the cookie called
@@ -842,33 +838,37 @@ $$$$$$ Response Header For Transaction With Id 367 Ended $$$$$$
 
 </body>
 </html>
-$$$$$$ Response Body For Transaction With Id 367 Ended $$$$$$
+$$$$$$ Response Body For Transaction With Id 524 Ended $$$$$$
 
 ****** Start Log Message ******
 
 Start Frames Hierarchy Tree Dump
-/cgi-bin/login.pl
-	/cgi-bin/nav.pl?page=menu&in=home
-	/cgi-bin/login.pl?intro=true
+The Node has no URL
+	/cgi-bin/login.pl?username=&password=&getInfo=true
+	Form: name= action=login.pl
+	/cgi-bin/welcome.pl?page=menus
+		/cgi-bin/nav.pl?page=menu&in=home
+		/cgi-bin/login.pl?intro=true
+	/cgi-bin/login.pl
 End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Add Event For Transaction With Id 367 ****** (Location Flag : tFlagInsertEnd, Location ID : 367)
+****** Add Event For Transaction With Id 524 ****** (Location Flag : tFlagInsertEnd, Location ID : 524)
 	web_url("SignOff Button",
 		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1",
 		"TargetFrame=body",
 		"Resource=0",
 		"RecContentType=text/html",
 		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home",
-		"Snapshot=t10.inf",
+		"Snapshot=t15.inf",
 		"Mode=HTML",
 		LAST);
 
 
-$$$$$$ Add Event For Transaction With Id 367 Ended $$$$$$
+$$$$$$ Add Event For Transaction With Id 524 Ended $$$$$$
 
-****** Request Header For Transaction With Id 372 ******
+****** Request Header For Transaction With Id 529 ******
 GET /cgi-bin/nav.pl?in=home HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -876,26 +876,26 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614264&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535881&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
 Connection: keep-alive
 
 
-$$$$$$ Request Header For Transaction With Id 372 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 529 Ended $$$$$$
 
-****** Response Header For Transaction With Id 372 ******
+****** Response Header For Transaction With Id 529 ******
 HTTP/1.1 200 OK
-Date: Sun, 03 Dec 2023 14:37:44 GMT
+Date: Thu, 14 Dec 2023 06:38:01 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: Sat, 02 Dec 2023 14:37:44 GMT
+Expires: Wed, 13 Dec 2023 06:38:01 GMT
 Keep-Alive: timeout=5, max=99
 Connection: Keep-Alive
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=ISO-8859-1
 
 
-$$$$$$ Response Header For Transaction With Id 372 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 529 Ended $$$$$$
 
-****** Response Body For Transaction With Id 372 ******
+****** Response Body For Transaction With Id 529 ******
 <!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -912,7 +912,7 @@ H3 {font-family: tahoma; font-size : 10pt; color: black}
 small {font-family: tahoma; font-size : 8pt}
 </style>
 <form method="post" action="/cgi-bin/login.pl" target="body">
-<input type="hidden" name="userSession" value="137838.336492507HAQAAfQptDDDDDDDtcftApDfzz"/>
+<input type="hidden" name="userSession" value="137912.991575537HAQDiQQpfAtVzzzHtcfzDpDQHAcf"/>
 <table border="0"><tr><td>&nbsp;</td>
 <td>&nbsp;</td></tr>
 <tr><td>&nbsp;</td>
@@ -937,21 +937,21 @@ src="/WebTours/images/mer_login.gif"/></td></tr>
 </body>
 </html>
 
-$$$$$$ Response Body For Transaction With Id 372 Ended $$$$$$
+$$$$$$ Response Body For Transaction With Id 529 Ended $$$$$$
 
 ****** Start Log Message ******
 
 Start Frames Hierarchy Tree Dump
 The Node has no URL
-	/cgi-bin/login.pl
-		/cgi-bin/nav.pl?page=menu&in=home
-		/cgi-bin/login.pl?intro=true
+	/cgi-bin/login.pl?username=&password=&getInfo=true
+	Form: name= action=login.pl
 	/cgi-bin/welcome.pl?signOff=1
+	/cgi-bin/login.pl
 End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$
 
-****** Request Header For Transaction With Id 375 ******
+****** Request Header For Transaction With Id 532 ******
 GET /WebTours/home.html HTTP/1.1
 Host: 127.0.0.1:1080
 User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
@@ -959,35 +959,35 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1
-Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614264&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1702535881&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
 Connection: keep-alive
 If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
 If-None-Match: "300000008ba75-551-4ddb1559ac980"
 
 
-$$$$$$ Request Header For Transaction With Id 375 Ended $$$$$$
+$$$$$$ Request Header For Transaction With Id 532 Ended $$$$$$
 
-****** Response Header For Transaction With Id 375 ******
+****** Response Header For Transaction With Id 532 ******
 HTTP/1.1 304 Not Modified
-Date: Sun, 03 Dec 2023 14:37:44 GMT
+Date: Thu, 14 Dec 2023 06:38:01 GMT
 Server: Apache/2.2.21 (Win32)
 Connection: Keep-Alive
 Keep-Alive: timeout=5, max=100
 ETag: "300000008ba75-551-4ddb1559ac980"
 
 
-$$$$$$ Response Header For Transaction With Id 375 Ended $$$$$$
+$$$$$$ Response Header For Transaction With Id 532 Ended $$$$$$
 
 ****** Start Log Message ******
 
 Start Frames Hierarchy Tree Dump
 The Node has no URL
-	/cgi-bin/login.pl
-		/cgi-bin/nav.pl?page=menu&in=home
-		/cgi-bin/login.pl?intro=true
+	/cgi-bin/login.pl?username=&password=&getInfo=true
+	Form: name= action=login.pl
 	/cgi-bin/welcome.pl?signOff=1
 		/cgi-bin/nav.pl?in=home
 		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/login.pl
 End Frames Hierarchy Tree Dump
 
 $$$$$$ End Log Message $$$$$$

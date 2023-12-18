@@ -25,7 +25,7 @@ UC2_FindFlight()
 
 	lr_end_transaction("StartPage",LR_AUTO);
 
-	lr_think_time(12);
+	lr_think_time(5);
 
 	lr_start_transaction("Login");
 	
@@ -50,22 +50,22 @@ UC2_FindFlight()
 
 	lr_end_transaction("Login",LR_AUTO);
 
-	lr_think_time(6);
+	lr_think_time(5);
 
 	lr_start_transaction("Flights");
 	
 	web_reg_find("Text/IC= User has returned to the search page",LAST);
 
-/*Correlation comment - Do not change!  Original value='12/04/2023' Name ='departDate' Type ='RecordReplay'*/
-	web_reg_save_param_attrib(
-		"ParamName=departDate",
-		"TagName=input",
-		"Extract=value",
-		"Name=returnDate",
-		"Type=text",
-		SEARCH_FILTERS,
-		"RequestUrl=*/reservations.pl*",
-		LAST);
+///*Correlation comment - Do not change!  Original value='12/04/2023' Name ='departDate' Type ='RecordReplay'*/
+//	web_reg_save_param_attrib(
+//		"ParamName=departDate",
+//		"TagName=input",
+//		"Extract=value",
+//		"Name=returnDate",
+//		"Type=text",
+//		SEARCH_FILTERS,
+//		"RequestUrl=*/reservations.pl*",
+//		LAST);
 
 	web_url("Search Flights Button", 
 		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search", 
@@ -149,8 +149,26 @@ UC2_FindFlight()
 
 	lr_end_transaction("ChooseFlight",LR_AUTO);
 
-	lr_think_time(6);
+	lr_think_time(5);
+	
+	lr_start_transaction("AllBookings");
+	
+	web_reg_find("Text/IC=User wants the intineraries",LAST);
 
+	web_url("Itinerary Button", 
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t7.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	lr_end_transaction("AllBookings",LR_AUTO);
+	
+	lr_think_time(5);
+	
 	lr_start_transaction("Logout");
 	
 	web_reg_find("Text/IC=Web Tours",LAST);

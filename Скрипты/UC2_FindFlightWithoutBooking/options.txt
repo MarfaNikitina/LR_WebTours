@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\User\Documents\WebTours_Scripts\UC2_FindFlightWithoutBooking
+-IC:\Users\User\Documents\WebTours_Scripts\Скрипты\UC2_FindFlightWithoutBooking
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\user\documents\webtours_scripts\uc2_findflightwithoutbooking\\logfile.log
-c:\users\user\documents\webtours_scripts\uc2_findflightwithoutbooking\\combined_FindFlightWithoutBooking.c
-c:\users\user\documents\webtours_scripts\uc2_findflightwithoutbooking\\pre_cci.c
+-ec:\users\user\documents\webtours_scripts\скрипты\uc2_findflightwithoutbooking\\logfile.log
+c:\users\user\documents\webtours_scripts\скрипты\uc2_findflightwithoutbooking\\combined_FindFlightWithoutBooking.c
+c:\users\user\documents\webtours_scripts\скрипты\uc2_findflightwithoutbooking\\pre_cci.c

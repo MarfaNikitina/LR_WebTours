@@ -1,0 +1,91 @@
+Virtual User Script started at: 16.12.2023 16:29:21
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\User\Documents\WebTours_Scripts\Скрипты_НовыйПрофиль\UC1_buyTicket\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action UC1_buyTicket.
+UC1_buyTicket.c(3): Notify: Transaction "UC1_buyTicket" started.
+UC1_buyTicket.c(5): Notify: Transaction "StartPage" started.
+UC1_buyTicket.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC1_buyTicket.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC1_buyTicket.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC1_buyTicket.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC1_buyTicket.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC1_buyTicket.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC1_buyTicket.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC1_buyTicket.c(18): web_url("welcome.pl") was successful, 4212 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC1_buyTicket.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,4330 Wasted Time: 0,1152).
+UC1_buyTicket.c(30): lr_think_time: 5,00 seconds.
+UC1_buyTicket.c(32): Notify: Transaction "Login" started.
+UC1_buyTicket.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC1_buyTicket.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC1_buyTicket.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC1_buyTicket.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC1_buyTicket.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC1_buyTicket.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC1_buyTicket.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC1_buyTicket.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC1_buyTicket.c(36): web_submit_data("login.pl") was successful, 5780 body bytes, 2047 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC1_buyTicket.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1819 Wasted Time: 0,0055).
+UC1_buyTicket.c(55): lr_think_time: 5,00 seconds.
+UC1_buyTicket.c(57): Notify: Transaction "Flights" started.
+UC1_buyTicket.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC1_buyTicket.c(61): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+UC1_buyTicket.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+UC1_buyTicket.c(61): Found resource "http://127.0.0.1:1080/WebTours/images/in_flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+UC1_buyTicket.c(61): Resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC1_buyTicket.c(61): Found resource "http://127.0.0.1:1080/WebTours/images/home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+UC1_buyTicket.c(61): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC1_buyTicket.c(61): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+UC1_buyTicket.c(61): Registered web_reg_find successful for "Text= User has returned to the search page" (count=1)  	[MsgId: MMSG-26364]
+UC1_buyTicket.c(61): web_url("Search Flights Button") was successful, 8516 body bytes, 1620 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC1_buyTicket.c(71): Notify: Transaction "Flights" ended with a "Pass" status (Duration: 0,2171 Wasted Time: 0,0054).
+UC1_buyTicket.c(73): lr_think_time: 5,00 seconds.
+UC1_buyTicket.c(75): Notify: Transaction "FindFlight" started.
+UC1_buyTicket.c(77): web_reg_find started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(77): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC1_buyTicket.c(79): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(79): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC1_buyTicket.c(85): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(85): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC1_buyTicket.c(85): Registered web_reg_find successful for "Text= from <B>Denver</B> to <B>Frankfurt</B> " (count=1)  	[MsgId: MMSG-26364]
+UC1_buyTicket.c(85): web_submit_data("reservations.pl") was successful, 2443 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC1_buyTicket.c(111): Notify: Transaction "FindFlight" ended with a "Pass" status (Duration: 0,1398 Wasted Time: 0,0031).
+UC1_buyTicket.c(113): lr_think_time: 5,00 seconds.
+UC1_buyTicket.c(115): Notify: Transaction "ChooseFlight" started.
+UC1_buyTicket.c(117): web_reg_find started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(117): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC1_buyTicket.c(119): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(119): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC1_buyTicket.c(119): Registered web_reg_find successful for "Text=Flight Reservation" (count=1)  	[MsgId: MMSG-26364]
+UC1_buyTicket.c(119): web_submit_data("reservations.pl_2") was successful, 2723 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC1_buyTicket.c(137): Notify: Transaction "ChooseFlight" ended with a "Pass" status (Duration: 0,1096 Wasted Time: 0,0034).
+UC1_buyTicket.c(139): lr_think_time: 5,00 seconds.
+UC1_buyTicket.c(141): Notify: Transaction "PayForFlight" started.
+UC1_buyTicket.c(143): web_reg_find started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(143): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC1_buyTicket.c(145): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+UC1_buyTicket.c(145): Found resource "http://127.0.0.1:1080/WebTours/images/bookanother.gif" in HTML "http://127.0.0.1:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+UC1_buyTicket.c(145): Registered web_reg_find successful for "Text=MarfaNikitina's Flight" (count=1)  	[MsgId: MMSG-26364]
+UC1_buyTicket.c(145): web_submit_data("reservations.pl_3") was successful, 3287 body bytes, 672 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC1_buyTicket.c(174): Notify: Transaction "PayForFlight" ended with a "Pass" status (Duration: 0,1071 Wasted Time: 0,0035).
+UC1_buyTicket.c(212): Notify: Transaction "UC1_buyTicket" ended with a "Pass" status (Duration: 26,4182 Think Time: 25,0297 Wasted Time: 0,1360).
+Ending action UC1_buyTicket.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,4 +1,4 @@
-# 1 "c:\\users\\user\\documents\\webtours_scripts\\uc3_loginlogout\\\\combined_LoginLogout.c"
+# 1 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc3_loginlogout\\\\combined_UC3_LoginLogout.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\user\\documents\\webtours_scripts\\uc3_loginlogout\\\\combined_LoginLogout.c" 2
+# 1 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc3_loginlogout\\\\combined_UC3_LoginLogout.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\user\\documents\\webtours_scripts\\uc3_loginlogout\\\\combined_LoginLogout.c" 2
+# 2 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc3_loginlogout\\\\combined_UC3_LoginLogout.c" 2
 
 # 1 "globals.h" 1
 
@@ -2583,14 +2583,14 @@ void
  
 
 
-# 3 "c:\\users\\user\\documents\\webtours_scripts\\uc3_loginlogout\\\\combined_LoginLogout.c" 2
+# 3 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc3_loginlogout\\\\combined_UC3_LoginLogout.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\user\\documents\\webtours_scripts\\uc3_loginlogout\\\\combined_LoginLogout.c" 2
+# 4 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc3_loginlogout\\\\combined_UC3_LoginLogout.c" 2
 
 # 1 "UC3_LoginLogout.c" 1
 UC3_LoginLogout()
@@ -2622,7 +2622,7 @@ UC3_LoginLogout()
 
 	lr_end_transaction("StartPage",2);
 
-	lr_think_time(6);
+	lr_think_time(5);
 
 	lr_start_transaction("Login");
 	
@@ -2648,34 +2648,68 @@ UC3_LoginLogout()
 	lr_end_transaction("Login",2);
 
 	lr_think_time(5);
-
-	lr_start_transaction("Logout");
 	
-	web_reg_find("Text/IC=Web Tours","LAST");
+	lr_start_transaction("Flights");
+	
+	web_reg_find("Text/IC= User has returned to the search page","LAST");
 
-	web_url("SignOff Button", 
-		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1", 
+	web_url("Search Flights Button", 
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
-		"Snapshot=t8.inf", 
+		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("Logout",2);
+	lr_end_transaction("Flights",2);
+	
+	lr_think_time(5);
+	
+	lr_start_transaction("AllBookings");
+	
+	web_reg_find("Text/IC=User wants the intineraries","LAST");
+
+	web_url("Itinerary Button", 
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Snapshot=t7.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	lr_end_transaction("AllBookings",2);
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 	
 	lr_end_transaction("Login/Logout", 2);
 
 
 	return 0;
 }
-# 5 "c:\\users\\user\\documents\\webtours_scripts\\uc3_loginlogout\\\\combined_LoginLogout.c" 2
+# 5 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc3_loginlogout\\\\combined_UC3_LoginLogout.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\user\\documents\\webtours_scripts\\uc3_loginlogout\\\\combined_LoginLogout.c" 2
+# 6 "c:\\users\\user\\documents\\webtours_scripts\\\361\352\360\350\357\362\373_\355\356\342\373\351\357\360\356\364\350\353\374\\uc3_loginlogout\\\\combined_UC3_LoginLogout.c" 2
 

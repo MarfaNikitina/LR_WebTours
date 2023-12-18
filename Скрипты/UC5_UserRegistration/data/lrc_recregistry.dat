@@ -166,7 +166,7 @@ Registry settings:
 		default	false
 	TestDir
 		(Default)	
-		default	C:\Users\User\Documents\VuGen\Scripts\UserRegistration\data\
+		default	C:\Users\User\Documents\WebTours_Scripts\Скрипты\UC5_UserRegistration\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly

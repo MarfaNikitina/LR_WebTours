@@ -1,0 +1,40 @@
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+UC2_FindFlight.c(16): web_url("welcome.pl") was successful, 4214 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC2_FindFlight.c(26): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,0945 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+UC2_FindFlight.c(28): lr_think_time: 12,00 seconds.	[MsgId: MMSG-15948]
+UC2_FindFlight.c(30): Notify: Transaction "Login" started.	[MsgId: MMSG-16999]
+UC2_FindFlight.c(32): web_reg_find started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(32): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(34): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(34): Connection to 127.0.0.1:1080 closed after being inactive for 3224 seconds, exceeding the "HTTP Keep-Alive timeout" Run-Time Setting (60 seconds). URL="http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-27650]
+UC2_FindFlight.c(34): Error -27724: Step download timeout (120 seconds) has expired when downloading resource "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MERR-27724]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+UC2_FindFlight.c(34): Aborting pending download of URL="http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=269)  	[MsgId: MMSG-27652]
+UC2_FindFlight.c(34): Error -26366: "Text=User password was correct" not found for web_reg_find  	[MsgId: MERR-26366]
+UC2_FindFlight.c(34): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+UC2_FindFlight.c(16): web_url("welcome.pl") was successful, 4214 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC2_FindFlight.c(26): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,1102 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+UC2_FindFlight.c(28): lr_think_time: 12,00 seconds.	[MsgId: MMSG-15948]
+UC2_FindFlight.c(30): Notify: Transaction "Login" started.	[MsgId: MMSG-16999]
+UC2_FindFlight.c(32): web_reg_find started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(32): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(34): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(34): Connection to 127.0.0.1:1080 closed after being inactive for 3224 seconds, exceeding the "HTTP Keep-Alive timeout" Run-Time Setting (60 seconds). URL="http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-27650]
+UC2_FindFlight.c(34): Error -27724: Step download timeout (120 seconds) has expired when downloading resource "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MERR-27724]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+UC2_FindFlight.c(34): Aborting pending download of URL="http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=269)  	[MsgId: MMSG-27652]
+UC2_FindFlight.c(34): Error -26366: "Text=User password was correct" not found for web_reg_find  	[MsgId: MERR-26366]
+UC2_FindFlight.c(34): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
