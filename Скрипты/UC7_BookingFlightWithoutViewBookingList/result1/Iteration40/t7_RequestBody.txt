@@ -1,4 +1,0 @@
-"firstName=%7BfirstName%7D&lastName=Nilson&address1=Chicago&address2=street+Dfghjkl&pass1=%7Bfi"
-"rstName%7D+Nilson&creditCard=746352834&expDate=07%2F27&oldCCOption=&numPassengers=1&seatType=C"
-"oach&seatPref=&outboundFlight=021%3B301%3B12%2F10%2F2023&advanceDiscount=0&returnFlight=&JSFor"
-"mSubmit=off&buyFlights.x=62&buyFlights.y=9&.cgifields=saveCC"

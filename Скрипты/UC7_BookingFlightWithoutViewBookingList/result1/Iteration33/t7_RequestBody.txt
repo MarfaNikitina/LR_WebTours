@@ -1,4 +1,0 @@
-"firstName=%7BfirstName%7D&lastName=Fines&address1=Stambul&address2=street+Fsdfghj&pass1=%7Bfir"
-"stName%7D+Fines&creditCard=973524456&expDate=07%2F27&oldCCOption=&numPassengers=1&seatType=Fir"
-"st&seatPref=Aisle&outboundFlight=012%3B684%3B12%2F10%2F2023&advanceDiscount=0&returnFlight=&JS"
-"FormSubmit=off&buyFlights.x=62&buyFlights.y=9&.cgifields=saveCC"

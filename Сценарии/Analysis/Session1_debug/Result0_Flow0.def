@@ -1,0 +1,31 @@
+﻿[BasicInfo]
+Title=AddUser, 16.12.2023 17:34:52
+Transaction=AddUser
+TimeRangeMin=180.000000
+TimeRangeMax=916.000000
+NumFilters=1
+CorrelatedCharts=VuserStateGraph,ErrorsPerSecondByMessage,ErrorsPerSecond,HitsperSecond,Throughput,PageViewPersec,Connections,ConnectionsPerSecond,WindowsResources,UnixResources,ServerResources,SNMP,SiteScope,NetworkMonitorGraph,DB2,Oracle,SQLserver,Sybase
+
+[BasicFilter0]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=180.000000
+Dim_1=1380.000000
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!
+
+[TabSheet]
+Visible=1
+ActivePage=0
+
