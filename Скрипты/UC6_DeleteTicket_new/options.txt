@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\User\Documents\WebTours_Scripts\Скрипты\UC6_DeleteTicket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\webtours_scripts\скрипты\uc6_deleteticket\\logfile.log
+c:\users\user\documents\webtours_scripts\скрипты\uc6_deleteticket\\combined_UC6_DeleteTicket.c
+c:\users\user\documents\webtours_scripts\скрипты\uc6_deleteticket\\pre_cci.c
