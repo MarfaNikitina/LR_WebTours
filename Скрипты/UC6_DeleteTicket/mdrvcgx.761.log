@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 134.	[MsgId: MMSG-10545]
+UC6_DeleteFlight.c(36): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+UC6_DeleteFlight.c(36): web_url("welcome.pl") was successful, 4216 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC6_DeleteFlight.c(46): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 9,3486 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+UC6_DeleteFlight.c(48): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+UC6_DeleteFlight.c(50): Notify: Transaction "Login" started.	[MsgId: MMSG-16999]
+UC6_DeleteFlight.c(52): web_reg_find started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(52): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC6_DeleteFlight.c(54): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(54): Error -26366: "Text=User password was correct" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
